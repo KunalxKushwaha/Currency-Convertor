@@ -18,6 +18,35 @@ body {
   animation: bgPulse 15s infinite alternate ease-in-out;
 }
 
+/* Dark Mode Styles */
+body.dark {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+body.dark .container {
+  background-color: #2c2c2c;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+body.dark input,
+body.dark select,
+body.dark button {
+  background-color: #3a3a3a;
+  color: #fff;
+  border-color: #555;
+}
+
+body.dark .msg {
+  color: #ccc;
+}
+
+body.dark #theme-toggle {
+  background-color: #444;
+  color: #fff;
+}
+
+
 @keyframes bgPulse {
   0% {
     background: linear-gradient(135deg, #f4e4ba, #fdd9b5);
