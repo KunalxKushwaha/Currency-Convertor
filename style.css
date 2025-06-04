@@ -29,20 +29,32 @@ body {
 
 #theme-toggle {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 14rem;
+  right: 35rem;
   padding: 0.5rem 1rem;
   border: none;
   width:fit-content;
-  display: flex;
-    align-items: center;
-    justify-content: center;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
   background: #af4d98;
   color: #fff;
   border-radius: 10px;
   cursor: pointer;
-  transition: background 0.4s;
+   transition: all 0.4s ease-in-out;
   z-index: 1000;
+  animation: floatUp 1s ease-out forwards;
+   transform-origin: center;
+}
+@keyframes floatUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 #theme-toggle:hover {
@@ -52,6 +64,7 @@ body {
 .container {
   background-color: #fff;
   padding: 2rem;
+  margin-top: 2rem;
   border-radius: 1.5rem;
   min-height: 45vh;
   width: 60vh;
