@@ -6,6 +6,10 @@ const btn = document.querySelector("form button");
 const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select");
 const msg = document.querySelector(".msg");
+const toggleBtn = document.getElementById("theme-toggle");
+toggleBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
 
 for (let select of dropdowns) {
   for (currCode in countryList) {
@@ -66,7 +70,3 @@ window.addEventListener("load", () => {
   updateExchangeRate();
 });
 
-const toggleBtn = document.getElementById("theme-toggle");
-toggleBtn.addEventListener("click", () => {
-  document.body.classList.toggle("dark");
-});

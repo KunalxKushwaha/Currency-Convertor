@@ -191,6 +191,7 @@ form input:focus {
   transition: color 0.3s ease;
 }
 
+
 .select-container select:hover {
   color: #af4d98;
 }
