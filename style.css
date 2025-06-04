@@ -189,7 +189,7 @@ body {
   padding: 2rem;
   border-radius: 1.5rem;
   min-height: 45vh;
-  width: 40vh;
+  width: 50vh;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
   animation: floatUp 1s ease-out forwards;
   transition: all 0.4s ease-in-out;
