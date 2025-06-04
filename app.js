@@ -1,5 +1,5 @@
 const BASE_URL =
-  "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies";
+  "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@2024-03-06/v1/currencies";
 
 const dropdowns = document.querySelectorAll(".dropdown select");
 const btn = document.querySelector("form button");
@@ -51,6 +51,14 @@ const updateFlag = (element) => {
 
 btn.addEventListener("click", (evt) => {
   evt.preventDefault();
+  let amount = document.querySelector(".amount input");
+  let amtVal = amount.value;
+    if (amtVal === "" || amtVal < 1) {
+        amtVal = 1;
+        amount.value = "1";
+    }
+
+    const URL = `${BASE_URL}/${fromCurr.value.toLowerCase()}/${toCurr.value.toLowerCase()}.json`;
   updateExchangeRate();
 });
 
