@@ -24,7 +24,7 @@ The API returns the latest exchange rate.
 
 The result is calculated and displayed dynamically.
 
-💻 Technologies Used
+<h4>💻 Technologies Used</h4><br>
 HTML5 – For page structure and input forms
 
 CSS3 – For styling and responsiveness
@@ -33,7 +33,7 @@ JavaScript (ES6+) – To fetch data from API and handle logic
 
 REST API – To get real-time currency exchange rates
 
-🎯 Features
+<h4>🎯 Features</h4><br>
 Convert between 160+ currencies
 
 Real-time rates fetched from a public API
