@@ -4,7 +4,7 @@ The Currency Converter is a web-based application designed to help users convert
 
 This project is particularly useful for travelers, international businesses, and developers learning how to work with APIs and asynchronous JavaScript.
 
-🧠 Key Concepts Covered
+<h4>🧠 Key Concepts Covered</h4>
 API Integration (Real-time exchange rates)
 
 Asynchronous JavaScript (fetch/async-await)
@@ -15,7 +15,7 @@ Event Handling
 
 Responsive Design
 
-🔧 How It Works
+<h4>🔧 How It Works</h4><br>
 The user enters an amount and selects the base and target currencies.
 
 On button click or input change, the app sends a request to a free exchange rate API (like ExchangeRate-API or exchangerate.host).
