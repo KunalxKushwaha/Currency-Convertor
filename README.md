@@ -15,7 +15,7 @@ Event Handling
 
 Responsive Design
 
-<h4>🔧 How It Works</h4><br>
+<h4>🔧 How It Works</h4>
 The user enters an amount and selects the base and target currencies.
 
 On button click or input change, the app sends a request to a free exchange rate API (like ExchangeRate-API or exchangerate.host).
