@@ -44,7 +44,7 @@ Responsive layout for mobile and desktop
 
 Error handling for invalid inputs or API issues
 
-🧩 Optional Enhancements
+<h4>🧩 Optional Enhancements</h4>
 Add currency flags and symbols
 
 Support historical exchange rates
@@ -55,7 +55,7 @@ Include offline fallback with cached data
 
 Add dark mode
 
-📦 API Suggestions
+<h4>📦 API Suggestions</h4>
 You can use any of the following free APIs:
 
 https://exchangerate.host
